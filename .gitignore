@@ -1,40 +1,47 @@
- HEAD
+# =====================
 # Python
+# =====================
 __pycache__/
 *.pyc
-*.db
-.env
+*.pyo
+*.pyd
 
-# Virtual env
+# Virtual environment
+venv/
+env/
 backend/venv/
 
-# uploads only
-backend/app/uploads/
+# =====================
+# Environment variables
+# =====================
+.env
 
-# Node
+# =====================
+# Database files
+# =====================
+*.db
+
+# =====================
+# Uploads / generated files
+# =====================
+app/uploads/
+backend/app/uploads/
+uploads/
+
+# =====================
+# Node (frontend)
+# =====================
 node_modules/
 frontend/node_modules/
 
-# Virtual environment folders
-Lib/
-Scripts/
-Include/
-share/
-pyvenv.cfg
-
-# Python cache
-__pycache__/
-*.pyc
-
-# uploads
-app/uploads/
-
-# database
-*.db
-
-# env file
-.env
-
- 3b560966293bcbcedc0a4835b41b95efc7210016
-# VS Code
+# =====================
+# IDE
+# =====================
 .vscode/
+.idea/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
