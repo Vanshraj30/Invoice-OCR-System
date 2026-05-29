@@ -1,3 +1,4 @@
+ HEAD
 # Python
 __pycache__/
 *.pyc
@@ -14,5 +15,26 @@ backend/app/uploads/
 node_modules/
 frontend/node_modules/
 
+# Virtual environment folders
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# uploads
+app/uploads/
+
+# database
+*.db
+
+# env file
+.env
+
+ 3b560966293bcbcedc0a4835b41b95efc7210016
 # VS Code
 .vscode/
